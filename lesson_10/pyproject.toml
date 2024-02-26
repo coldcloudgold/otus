@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lesson-10"
+version = "0.1.0"
+description = ""
+authors = ["Ruslan Urazbakhtin <r.urazbakhtin@_#TODO>"]
+readme = "README.md"
+packages = [{include = "lesson_10"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+blacksheep = "^2.0.7"
+granian = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
